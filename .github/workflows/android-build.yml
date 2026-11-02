@@ -28,7 +28,7 @@ jobs:
       - name: Extract project ZIP
         run: |
           mkdir extracted
-          unzip -q MultiWeb10-mobile-build.zip -d extracted
+          unzip -q MultiWeb10-mobile-build-fixed.zip -d extracted
 
       - name: Build APK
         run: |
